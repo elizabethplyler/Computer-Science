@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Pet Store
+  </title>
+    <style type="text/css">* {
+      box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+      }
+      /* Style the header*/
+      .header{
+        background-color:#f1f1f1;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /*Style the top navigation bar*/
+      .topnav{
+        overflow:hidden;
+        background-color:#333;
+      }
+      /*Style the topnav links*/
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding:14px 16px;
+        text-decoration: none;
+      }
+
+      /* Create three equal colums that floats next to each other*/
+      .column{
+        float: left;
+        width:33.33%;
+        padding: 15px;
+        background-color: lightgoldenrodyellow;
+      }
+      #footer{
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;
+      }</style>
+  </head>
+  <body>
+    <div class="header">
+    <h1> Welcome to the Pet Store</h1>
+    <p> Meet Lion, Tiger, and Bear!</p>
+    </div>
+    
+    <div class="topnav">
+    <a href="index.html">Home Page</a>
+    <a href="#">Lion's Picks</a>  
+    <a href="#">Tiger's Picks</a>  
+    <a href="#">Bear's Picks</a>  
+    </div>
+    
+    <div class="row">
+    
+      <div class="column">
+      <h2>Meet Lion</h2>    
+    </div>
+      
+      <div class="column">
+        <h2>Meet Tiger</h2>    
+      </div>
+      
+      <div class="column">
+        <h2>Meet Bear</h2>    
+      </div>     
+      
+    </div>
+    
+    <footer id="footer">
+      <div>
+        <h3>Contact Us</h3>
+        <p>555-555-1234</p>
+        <p>petstore@email.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
